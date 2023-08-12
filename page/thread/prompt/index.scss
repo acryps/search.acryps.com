@@ -1,0 +1,19 @@
+:root {
+
+}
+
+ui-prompt {
+	display: block;
+
+	input {
+		all: unset;
+
+		display: block;
+		width: calc(100% - var(--control-border-size) - var(--control-padding-block) * 2);
+		padding-block: var(--control-padding-block);
+		padding-inline: var(--control-padding-inline);
+		
+		border: var(--control-border);
+		font-family: var(--font-body);
+	}
+}

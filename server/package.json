@@ -2,7 +2,7 @@
 	"name": "server",
 	"scripts": {
 		"build": "tsc && vlserver compile && vlquery compile",
-		"start": "tsc && vlserver compile && vlquery compile && environment built/index.js"
+		"start": "vlserver compile && tsc && vlquery compile && environment built/index.js"
 	},
 	"environment": {
 		"openAi": {

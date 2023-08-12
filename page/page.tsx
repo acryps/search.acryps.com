@@ -1,4 +1,4 @@
-import { Component } from 'vldom';
+import { Component } from "@acryps/page";
 
 export class PageComponent extends Component {
 	render(child) {
@@ -14,6 +14,8 @@ export class PageComponent extends Component {
 					</ui-product>
 				</ui-logo>
 			</ui-navigation>
+
+			{child}
 		</ui-page>;
 	}
 }
