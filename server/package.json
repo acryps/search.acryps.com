@@ -1,0 +1,19 @@
+{
+	"name": "server",
+	"scripts": {
+		"watch": "tsc -w & nodemon -q -w npx vlserver compile && npx vlquery compile && dist dist/index.js",
+		"build": "tsc && vlserver compile && vlquery compile",
+		"start": "node dist/index.js"
+	},
+	"dependencies": {
+		"vlquery": "^7.0.8",
+		"vlserver": "^4.6.21"
+	},
+	"devDependencies": {
+		"@types/node": "^18.11.15",
+		"nodemon": "^3.0.1",
+		"ts-node": "^10.9.1",
+		"tsc-watch": "^6.0.0",
+		"typescript": "^4.9.4"
+	}
+}

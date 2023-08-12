@@ -1,0 +1,19 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+
+ui-page {
+	display: block;
+	width: var(--content-width);
+	margin: var(--page-margin-block) auto;
+	margin-top: var(--navigation-height);
+
+	ui-title {
+		display: block;
+		margin-top: 5rem;
+
+		text-align: center;
+		font-size: 5rem;
+	}
+}
