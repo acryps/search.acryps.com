@@ -4,10 +4,10 @@ import { join } from "path";
 
 const app = new ManagedServer();
 
-app.use(new StaticFileRoute('/', join(process.cwd(), '..', 'client', 'dist')));
-app.use(new StaticFileRoute('/assets', join(process.cwd(), '..', 'client', 'assets')));
+app.use(new StaticFileRoute('/', join(process.cwd(), '..', 'page', 'built')));
+app.use(new StaticFileRoute('/assets', join(process.cwd(), '..', 'page', 'assets')));
 
 app.prepareRoutes();
-app.use(new StaticFileRoute('*', join(process.cwd(), '..', 'client', 'dist', 'index.html')));
+app.use(new StaticFileRoute('*', join(process.cwd(), '..', 'page', 'built', 'index.html')));
 
-app.start(+process.env.PORT! || 3000);
+app.start(+process.env.PORT! || 3900);

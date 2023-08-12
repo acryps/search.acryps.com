@@ -1,11 +1,17 @@
 {
 	"name": "server",
 	"scripts": {
-		"watch": "tsc -w & nodemon -q -w npx vlserver compile && npx vlquery compile && dist dist/index.js",
 		"build": "tsc && vlserver compile && vlquery compile",
-		"start": "node dist/index.js"
+		"start": "tsc && vlserver compile && vlquery compile && environment built/index.js"
+	},
+	"environment": {
+		"openAi": {
+			"organization": "OpenAI Organization",
+			"secret": "OpenAI Secret"
+		}
 	},
 	"dependencies": {
+		"@acryps/environment": "^1.0.4",
 		"vlquery": "^7.0.8",
 		"vlserver": "^4.6.21"
 	},

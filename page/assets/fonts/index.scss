@@ -1,0 +1,91 @@
+:root {
+	--font-logo: 'n27';
+	--font-title: 'n27';
+	--font-body: 'silka-mono';
+	--font-monospace: 'silka-mono';
+}
+
+@font-face {
+	font-family: 'n27';
+	font-weight: 100;
+	src: url('./assets/fonts/n27-extralight-webfont.ttf');
+}
+
+@font-face {
+	font-family: 'n27';
+	font-weight: 200;
+	src: url('./assets/fonts/n27-light-webfont.ttf');
+}
+
+@font-face {
+	font-family: 'n27';
+	font-weight: 300;
+	src: url('./assets/fonts/n27-thin-webfont.ttf');
+}
+
+@font-face {
+	font-family: 'n27';
+	font-weight: 500;
+	src: url('./assets/fonts/n27-regular-webfont.ttf');
+}
+
+@font-face {
+	font-family: 'n27';
+	font-weight: 600;
+	src: url('./assets/fonts/n27-medium-webfont.ttf');
+}
+
+@font-face {
+	font-family: 'n27';
+	font-weight: 800;
+	src: url('./assets/fonts/n27-bold-webfont.ttf');
+}
+
+@font-face {
+	font-family: 'silka-mono';
+	font-weight: 100;
+	src: url('./assets/fonts/silkamono-extralight-webfont.ttf');
+}
+
+@font-face {
+	font-family: 'silka-mono';
+	font-weight: 200;
+	src: url('./assets/fonts/silkamono-light-webfont.ttf');
+}
+
+@font-face {
+	font-family: 'silka-mono';
+	font-weight: 300;
+	src: url('./assets/fonts/silkamono-thin-webfont.ttf');
+}
+
+@font-face {
+	font-family: 'silka-mono';
+	font-weight: 500;
+	src: url('./assets/fonts/silkamono-regular-webfont.ttf');
+}
+
+@font-face {
+	font-family: 'silka-mono';
+	font-weight: 600;
+	src: url('./assets/fonts/silkamono-medium-webfont.ttf');
+}
+
+@font-face {
+	font-family: 'silka-mono';
+	font-weight: 700;
+	src: url('./assets/fonts/silkamono-semibold-webfont.ttf');
+}
+
+@font-face {
+	font-family: 'silka-mono';
+	font-weight: 800;
+	src: url('./assets/fonts/silkamono-bold-webfont.ttf');
+}
+
+@font-face {
+	font-family: 'silka-mono';
+	font-weight: 900;
+	src: url('./assets/fonts/silkamono-black-webfont.ttf');
+}
+

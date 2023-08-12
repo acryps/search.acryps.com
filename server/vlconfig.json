@@ -10,7 +10,7 @@
 		"endpoints": [
 			{
 				"type": "native",
-				"outFile": "../client/managed/services.ts"
+				"outFile": "../page/managed/services.ts"
 			}
 		]
 	}
